@@ -1,4 +1,5 @@
-FROM "ubuntu"
+ARG VARIANT="jammy"
+FROM mcr.microsoft.com/vscode/devcontainers/ubuntu:0-${VARIANT}
 
 RUN apt-get update
 RUN apt-get install -y wget git unzip build-essential libz-dev zlib1g-dev
