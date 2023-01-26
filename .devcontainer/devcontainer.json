@@ -1,0 +1,15 @@
+{
+    "image": "ubuntu",
+    "forwardPorts": [3000, 8080],
+    "remoteEnv": {
+        "JAVA_HOME": "/graalvm-ce-java11-22.3.1",
+        "PATH": "/graalvm-ce-java11-22.3.1/bin:${localEnv:PATH}",
+        "GRAALVM_HOME": "/graalvm-ce-java11-22.3.1"
+    },
+    "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y unzip build-essential libz-dev zlib1g-dev && wget https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java11-linux-amd64-22.3.1.tar.gz && tar -xvzf graalvm-ce-java11-linux-amd64-22.3.1.tar.gz -C /opt/graalvm && rm graalvm-ce-java11-linux-amd64-22.3.1.tar.gz"
+}
