@@ -8,4 +8,7 @@ RUN wget https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.
 
 RUN tar -xvzf graalvm-ce-java19-linux-amd64-22.3.1.tar.gz
 
+ENV JAVA_HOME="/workspaces/graal-workshop/graalvm-ce-java19-22.3.1"
+ENV PATH="/workspaces/graal-workshop/graalvm-ce-java19-22.3.1/bin:$PATH"
+ENV GRAALVM_HOME="/workspaces/graal-workshop/graalvm-ce-java19-22.3.1
 
