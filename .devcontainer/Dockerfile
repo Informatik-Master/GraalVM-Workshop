@@ -1,7 +1,7 @@
 FROM "ubuntu"
 
 RUN apt-get update
-RUN apt-get install -y git unzip build-essential libz-dev zlib1g-dev
+RUN apt-get install -y wget git unzip build-essential libz-dev zlib1g-dev
 
 WORKDIR /workspaces/graal-workshop
 RUN wget https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java19-linux-amd64-22.3.1.tar.gz 
