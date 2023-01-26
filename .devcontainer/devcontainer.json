@@ -1,18 +1,11 @@
 {
   "forwardPorts": [3000, 8080],
-  "remoteUser": "root",
-  "remoteEnv": {
-    "JAVA_HOME": "/workspaces/graal-workshop/graalvm-ce-java19-22.3.1",
-    "PATH": "/workspaces/graal-workshop/graalvm-ce-java19-22.3.1/bin:${localEnv:PATH}",
-    "GRAALVM_HOME": "/workspaces/graal-workshop/graalvm-ce-java19-22.3.1"
-  },
   "customizations": {
     "vscode": {
       "extensions": ["vscjava.vscode-java-pack"]
     }
   },
   "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
+    "dockerfile": "Dockerfile"
   }
 }
