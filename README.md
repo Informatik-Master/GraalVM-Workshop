@@ -4,12 +4,12 @@
   <h2 align="center">GraalVM Workshop</h2>
 
 </div>
-<hr>
 <br>
 
 ## Überblick
 In diesem Repository befindet sich die Konfiguration für einen Github-Codespace, indem die Übungen des GraalVM Workshops durchgeführt werden können.
 Gerne können die Übungen auch lokal durchgeführt werden, besonders wenn bereits Ubuntu oder ein vergleichbares System installiert ist.
+Im .devContainer Ordner findet sich auch eine Dockerfile, in dem die Übungen auch durchgeführt werden können, besonders wenn wir auf Windows unterwegs sind, kann das helfen :)
 Der Codespace enthält automatisch die benötigten Tools und Bibliotheken.
 Die Übungen können dann direkt im Browser durchgeführt werden.
 
