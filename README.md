@@ -21,7 +21,7 @@ Um die Übungen des Workshops optimal durchführen zu können, wird ein Github-C
 4. Auf "Create Codespace" klicken.
 
 Der Codespace braucht einen kleinen Moment, bis er bereit ist.
-Anschlißend kann er wie ein lokaler Computer verwendet werden.
+Anschließend kann er wie ein lokaler Computer verwendet werden.
 
 ## Übungen
 Während des Workshops gibt es einige Übungen, die mit dem Codespace durchgeführt werden können.
